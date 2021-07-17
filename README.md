@@ -51,7 +51,7 @@ train_data = tf.keras.preprocessing.image_dataset_from_directory(
     )
 ```
 
-Output:
+###### Output:
 
 ```
 Found 5121 files belonging to 4 classes.
@@ -67,7 +67,7 @@ test_data=tf.keras.preprocessing.image_dataset_from_directory(
     )
 ```
 
-Output:
+###### Output:
 
 ```
 Found 1279 files belonging to 4 classes.
@@ -84,7 +84,7 @@ val_data = tf.keras.preprocessing.image_dataset_from_directory(
     )
 ```
 
-Output:
+###### Output:
 
 ```
 Found 5121 files belonging to 4 classes.
@@ -94,7 +94,7 @@ Using 1024 files for validation.
 This dataset contains 4 classes of images:
 
 ```python
-class_names = ['MildDementia', 'ModerateDementia', 'NonDementia', 'VeryMildDementia']
+class_names = ['Mild Dementia', 'Moderate Dementia', 'Non Dementia', 'Very Mild Dementia']
 ```
 
 Sample visualization:
@@ -123,7 +123,6 @@ model.add(Dense(133,activation='relu'))
 model.add(Dense(4,activation='softmax'))
 
 model.summary()
-
 ```
 
 Output:
@@ -191,17 +190,21 @@ model.save("alz_model1.h5")
 model.evaluate(val_data)
 ```
 
-Output:
+###### Output:
 
 ```python
 32/32 [==============================] - 1s 35ms/step - loss: 0.3533 - accuracy: 0.8672
 [0.3533317744731903, 0.8671875]
 ```
 
-Plot: Training and validation loss
+###### Plot: Training and validation loss
 
 ![](images/train_vs_val_loss.png)
 
-Plot: Training and validation accuracy
+###### Plot: Training and validation accuracy
 
 ![](images/train_vs_val_acc.png)
+
+###### Prediction Comparison:
+
+![](images/prediction_output.png)
