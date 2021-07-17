@@ -99,7 +99,7 @@ class_names = ['MildDementia', 'ModerateDementia', 'NonDementia', 'VeryMildDemen
 
 Sample visualization:
 
-![](/home/ashraf/Workspace/Github_Update/CNN%20Model%20for%20Alzheimer%20Detection/images/sample_visualization.png)
+![](images/sample_visualization.png)
 
 Define Model:
 
@@ -200,8 +200,8 @@ Output:
 
 Plot: Training and validation loss
 
-![](/home/ashraf/Workspace/Github_Update/CNN%20Model%20for%20Alzheimer%20Detection/images/train_vs_val_loss.png)
+![](images/train_vs_val_loss.png)
 
 Plot: Training and validation accuracy
 
-![](/home/ashraf/Workspace/Github_Update/CNN%20Model%20for%20Alzheimer%20Detection/images/train_vs_val_acc.png)
+![](images/train_vs_val_acc.png)
