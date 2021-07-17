@@ -97,11 +97,11 @@ This dataset contains 4 classes of images:
 class_names = ['Mild Dementia', 'Moderate Dementia', 'Non Dementia', 'Very Mild Dementia']
 ```
 
-Sample visualization:
+###### Sample visualization:
 
 ![](images/sample_visualization.png)
 
-Define Model:
+###### Define Model:
 
 ```python
 model=Sequential()
@@ -125,7 +125,7 @@ model.add(Dense(4,activation='softmax'))
 model.summary()
 ```
 
-Output:
+###### Model Summary:
 
 ```python
 Model: "sequential"
@@ -168,7 +168,7 @@ Non-trainable params: 0
 _________________________________________________________________
 ```
 
-Compile and Fit Model:
+###### Compile and Fit Model:
 
 ```python
 model.compile(
